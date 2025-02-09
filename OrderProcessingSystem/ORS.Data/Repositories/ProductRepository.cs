@@ -1,12 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ORS.Data.Contracts;
 using ORS.Data.Models;
+using Serilog;
 
 namespace ORS.Data.Repositories
 {
-    public interface IProductRepository
-    {
-        Task<Product?> GetByIdAsync(int id);
-    }
     public class ProductRepository : IProductRepository
     {
         private readonly ORSDbContext _context;
@@ -18,7 +16,15 @@ namespace ORS.Data.Repositories
 
         public async Task<Product?> GetByIdAsync(int id)
         {
-            return await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            try
+            {
+                return await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "An error occurred while retrieving product with ID {ProductId}.", id);
+                throw;
+            }
         }
     }
 }

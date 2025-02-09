@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ORS.Service.Contracts;
+using Serilog;
 
 namespace ORS.API.Controllers
 {

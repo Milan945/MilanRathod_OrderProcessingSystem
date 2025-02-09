@@ -1,16 +1,11 @@
-﻿using ORS.Data.Models;
-using ORS.Data.Repositories;
+﻿using ORS.Data.Contracts;
+using ORS.Data.Models;
 using ORS.Service.Contracts;
 using ORS.Service.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Serilog;
 
 namespace ORS.Service
 {
-
     public class OrderService : IOrderService
     {
         private readonly IOrderRepository _orderRepository;
@@ -24,78 +19,96 @@ namespace ORS.Service
             _productRepository = productRepository;
         }
 
-        /// <summary>  
-        /// Creates a new order after validating business rules.  
-        /// </summary>  
-
         public async Task CreateOrderAsync(CustomerOrdersDto customerOrdersDto)
         {
-            // Validate customer existence  
-            var customerExists = await _customerRepository.GetByIdAsync(customerOrdersDto.CustomerId);
-            if (customerExists == null)
+            try
             {
-                throw new InvalidOperationException($"Customer with ID {customerOrdersDto.CustomerId} does not exist.");
-            }
-
-            // Validate that the customer has no unfulfilled orders  
-            var hasUnfulfilledOrders = await _customerRepository.HasUnfulfilledOrdersAsync(customerOrdersDto.CustomerId);
-            if (hasUnfulfilledOrders)
-            {
-                throw new InvalidOperationException("Cannot place a new order while a previous order is unfulfilled.");
-            }
-
-            if (customerOrdersDto.Orders.Any(o => o.Quantity == 0))
-            {
-                throw new InvalidOperationException("Cannot place a new order with 0 quantity.");
-            }
-
-            // Create an Order object  
-            var order = new Order
-            {
-                CustomerId = customerOrdersDto.CustomerId,
-                OrderItems = new List<OrderItem>()
-            };
-
-            // Process each OrdersDto and add to OrderItems  
-            foreach (var orderDto in customerOrdersDto.Orders)
-            {
-                var product = await _productRepository.GetByIdAsync(orderDto.ProductId);
-                if (product == null)
+                var customerExists = await _customerRepository.GetByIdAsync(customerOrdersDto.CustomerId);
+                if (customerExists == null)
                 {
-                    throw new InvalidOperationException($"Product with ID {orderDto.ProductId} does not exist.");
+                    Log.Warning("Customer with ID {CustomerId} does not exist.", customerOrdersDto.CustomerId);
+                    throw new InvalidOperationException($"Customer with ID {customerOrdersDto.CustomerId} does not exist.");
                 }
 
-                var orderItem = new OrderItem
+                var hasUnfulfilledOrders = await _customerRepository.HasUnfulfilledOrdersAsync(customerOrdersDto.CustomerId);
+                if (hasUnfulfilledOrders)
                 {
-                    ProductId = orderDto.ProductId,
-                    Quantity = orderDto.Quantity,
-                    Product = product
+                    Log.Warning("Customer with ID {CustomerId} has unfulfilled orders.", customerOrdersDto.CustomerId);
+                    throw new InvalidOperationException("Cannot place a new order while a previous order is unfulfilled.");
+                }
+
+                if (customerOrdersDto.Orders.Any(o => o.Quantity == 0))
+                {
+                    Log.Warning("Customer with ID {CustomerId} attempted to place an order with 0 quantity.", customerOrdersDto.CustomerId);
+                    throw new InvalidOperationException("Cannot place a new order with 0 quantity.");
+                }
+
+                var order = new Order
+                {
+                    CustomerId = customerOrdersDto.CustomerId,
+                    OrderItems = new List<OrderItem>()
                 };
 
-                order.OrderItems.Add(orderItem);
-            }
+                foreach (var orderDto in customerOrdersDto.Orders)
+                {
+                    var product = await _productRepository.GetByIdAsync(orderDto.ProductId);
+                    if (product == null)
+                    {
+                        Log.Warning("Product with ID {ProductId} does not exist.", orderDto.ProductId);
+                        throw new InvalidOperationException($"Product with ID {orderDto.ProductId} does not exist.");
+                    }
 
-            await _orderRepository.AddAsync(order);
-            await _orderRepository.SaveChangesAsync();
+                    var orderItem = new OrderItem
+                    {
+                        ProductId = orderDto.ProductId,
+                        Quantity = orderDto.Quantity,
+                        Product = product
+                    };
+                    order.OrderItems.Add(orderItem);
+                }
+
+                await _orderRepository.AddAsync(order);
+                await _orderRepository.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "An error occurred while creating a new order for Customer ID {CustomerId}.", customerOrdersDto.CustomerId);
+                throw;
+            }
         }
-        /// <summary>  
-        /// Marks an order as fulfilled.  
-        /// </summary>  
+
         public async Task FulfillOrderAsync(int orderId)
         {
-            var order = await _orderRepository.GetByIdAsync(orderId);
-            if (order == null)
+            try
             {
-                throw new InvalidOperationException($"Order with ID {orderId} not found.");
-            }
+                var order = await _orderRepository.GetByIdAsync(orderId);
+                if (order == null)
+                {
+                    Log.Warning("Order with ID {OrderId} not found.", orderId);
+                    throw new InvalidOperationException($"Order with ID {orderId} not found.");
+                }
 
-            order.IsFulfilled = true;
-            await _orderRepository.SaveChangesAsync();
+                order.IsFulfilled = true;
+                await _orderRepository.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "An error occurred while fulfilling order with ID {OrderId}.", orderId);
+                throw;
+            }
         }
 
         public async Task<Order?> GetOrderByIdAsync(int id)
         {
-            return await _orderRepository.GetByIdAsync(id);
+            try
+            {
+                return await _orderRepository.GetByIdAsync(id);
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "An error occurred while retrieving order with ID {OrderId}.", id);
+                throw;
+            }
         }
     }
 }

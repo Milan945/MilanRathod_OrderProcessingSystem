@@ -1,10 +1,10 @@
-﻿using ORS.Data.Models;
-using ORS.Data.Repositories;
+﻿using ORS.Data.Contracts;
+using ORS.Data.Models;
 using ORS.Service.Contracts;
+using Serilog;
 
 namespace ORS.Service
 {
-
     public class CustomerService : ICustomerService
     {
         private readonly ICustomerRepository _customerRepository;
@@ -16,12 +16,28 @@ namespace ORS.Service
 
         public async Task<IEnumerable<Customer>> GetAllCustomersAsync()
         {
-            return await _customerRepository.GetAllAsync();
+            try
+            {
+                return await _customerRepository.GetAllAsync();
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "An error occurred while retrieving all customers.");
+                throw;
+            }
         }
 
         public async Task<Customer?> GetCustomerByIdAsync(int id)
         {
-            return await _customerRepository.GetByIdAsync(id);
+            try
+            {
+                return await _customerRepository.GetByIdAsync(id);
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "An error occurred while retrieving customer with ID {CustomerId}.", id);
+                throw;
+            }
         }
     }
 }

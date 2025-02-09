@@ -1,15 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ORS.Data.Contracts;
 using ORS.Data.Models;
-using System;
+using Serilog;
 
 namespace ORS.Data.Repositories
 {
-    public interface IOrderRepository
-    {
-        Task<Order?> GetByIdAsync(int id);
-        Task AddAsync(Order order);
-        Task SaveChangesAsync();
-    }
     public class OrderRepository : IOrderRepository
     {
         private readonly ORSDbContext _context;
@@ -21,21 +16,45 @@ namespace ORS.Data.Repositories
 
         public async Task<Order?> GetByIdAsync(int id)
         {
-            return await _context.Orders
-                .Include(o => o.OrderItems)
-                    .ThenInclude(oi => oi.Product)
-                .Include(o => o.Customer)
-                .FirstOrDefaultAsync(o => o.Id == id);
+            try
+            {
+                return await _context.Orders
+                    .Include(o => o.OrderItems)
+                        .ThenInclude(oi => oi.Product)
+                    .Include(o => o.Customer)
+                    .FirstOrDefaultAsync(o => o.Id == id);
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "An error occurred while retrieving order with ID {OrderId}.", id);
+                throw;
+            }
         }
 
         public async Task AddAsync(Order order)
         {
-            await _context.Orders.AddAsync(order);
+            try
+            {
+                await _context.Orders.AddAsync(order);
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "An error occurred while adding a new order.");
+                throw;
+            }
         }
 
         public async Task SaveChangesAsync()
         {
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "An error occurred while saving changes to the database.");
+                throw;
+            }
         }
     }
 }
