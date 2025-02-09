@@ -35,38 +35,48 @@ namespace ORS.Data
                 entity.Property(p => p.Name).IsRequired().HasMaxLength(100);
                 entity.Property(p => p.Price).IsRequired().HasColumnType("decimal(18,2)");
             });
+
             modelBuilder.Entity<Order>(entity =>
             {
                 entity.HasKey(o => o.Id);
 
                 entity.HasOne(o => o.Customer)
-                      .WithMany(c => c.Orders)
-                      .HasForeignKey(o => o.CustomerId);
+                    .WithMany(c => c.Orders)
+                    .HasForeignKey(o => o.CustomerId)
+                    .OnDelete(DeleteBehavior.Cascade); // Optional: Cascade delete if a customer is deleted  
 
                 entity.Property(o => o.IsFulfilled)
-                      .IsRequired()
-                      .HasDefaultValue(false);
+                    .IsRequired()
+                    .HasDefaultValue(false);
+
+                entity.Property(o => o.OrderDate)
+                    .IsRequired()
+                    .HasDefaultValueSql("GETUTCDATE()"); // Default value is the current UTC date and time  
 
                 entity.HasIndex(o => new { o.CustomerId, o.IsFulfilled })
-                      .HasFilter("[IsFulfilled] = 0")
-                      .IsUnique();
+                    .HasFilter("[IsFulfilled] = 0") // SQL Server-specific syntax  
+                    .IsUnique(); // Ensure only one unfulfilled order per customer  
             });
 
-            // Configure OrderItem  
+            // Configure OrderItem Entity  
             modelBuilder.Entity<OrderItem>(entity =>
             {
-                entity.HasKey(oi => new { oi.OrderId, oi.ProductId });
+                entity.HasKey(oi => new { oi.OrderId, oi.ProductId }); // Composite key  
 
                 entity.HasOne(oi => oi.Order)
-                      .WithMany(o => o.OrderItems)
-                      .HasForeignKey(oi => oi.OrderId);
+                    .WithMany(o => o.OrderItems)
+                    .HasForeignKey(oi => oi.OrderId)
+                    .OnDelete(DeleteBehavior.Cascade); // Optional: Cascade delete if an order is deleted  
 
                 entity.HasOne(oi => oi.Product)
-                      .WithMany()
-                      .HasForeignKey(oi => oi.ProductId);
+                    .WithMany()
+                    .HasForeignKey(oi => oi.ProductId)
+                    .OnDelete(DeleteBehavior.Restrict); // Prevent deletion of a product if it's referenced in an order  
 
-                entity.Property(oi => oi.Quantity).IsRequired();
+                entity.Property(oi => oi.Quantity)
+                    .IsRequired();
             });
+
         }
     }
 }

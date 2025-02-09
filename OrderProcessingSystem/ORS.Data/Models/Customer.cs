@@ -1,4 +1,6 @@
-﻿namespace ORS.Data.Models
+﻿using System.Text.Json.Serialization;
+
+namespace ORS.Data.Models
 {
     public class Customer
     {

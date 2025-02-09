@@ -4,6 +4,6 @@ namespace ORS.Service.Contracts
 {
     public interface IProductService
     {
-        Product? GetProductById(int id);
+        Task<Product?> GetProductByIdAsync(int id);
     }
 }

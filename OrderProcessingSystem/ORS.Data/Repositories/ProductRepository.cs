@@ -1,10 +1,11 @@
-﻿using ORS.Data.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using ORS.Data.Models;
 
 namespace ORS.Data.Repositories
 {
     public interface IProductRepository
     {
-        Product? GetById(int id);
+        Task<Product?> GetByIdAsync(int id);
     }
     public class ProductRepository : IProductRepository
     {
@@ -15,9 +16,9 @@ namespace ORS.Data.Repositories
             _context = context;
         }
 
-        public Product? GetById(int id)
+        public async Task<Product?> GetByIdAsync(int id)
         {
-            return _context.Products.FirstOrDefault(p => p.Id == id);
+            return await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
         }
     }
 }

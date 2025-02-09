@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ORS.Data.Models;
 using ORS.Service.Contracts;
+using ORS.Service.Dtos;
 
 namespace ORS.API.Controllers
 {
@@ -28,12 +29,12 @@ namespace ORS.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateOrderAsync([FromBody] Order order)
+        public async Task<IActionResult> CreateOrderAsync([FromBody] CustomerOrdersDto order)
         {
             try
             {
                 await _orderService.CreateOrderAsync(order);
-                return CreatedAtAction(nameof(GetOrderAsync), new { id = order.Id }, order);
+                return Ok("Order Created successfully...");
             }
             catch (InvalidOperationException ex)
             {

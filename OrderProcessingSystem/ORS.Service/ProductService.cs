@@ -19,9 +19,9 @@ namespace ORS.Service
             _productRepository = productRepository;
         }
 
-        public Product? GetProductById(int id)
+        public async Task<Product?> GetProductByIdAsync(int id)
         {
-            return _productRepository.GetById(id);
+            return await _productRepository.GetByIdAsync(id);
         }
     }
 }
