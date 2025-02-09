@@ -38,6 +38,9 @@ namespace ORS.Data
                     entity.Property(c => c.Name).IsRequired().HasMaxLength(100);
                     entity.Property(c => c.Email).IsRequired().HasMaxLength(100);
                     entity.Property(c => c.PasswordHash).IsRequired().HasMaxLength(256);
+                    entity.Property(c => c.CreatedAt).IsRequired().HasDefaultValueSql("GETUTCDATE()");
+                    entity.Property(c => c.UpdatedAt).IsRequired().HasDefaultValueSql("GETUTCDATE()");
+                    entity.Property(c => c.RowVersion).IsRowVersion();
                 });
 
                 modelBuilder.Entity<Product>(entity =>

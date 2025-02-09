@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\contracts\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\contracts\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|solutionrelative:ors.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|solutionrelative:ors.service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|solutionrelative:ors.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|solutionrelative:ors.service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.service\\dtos\\customerordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|solutionrelative:ors.service\\dtos\\customerordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Migrations\\20250209201134_rowversionchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ORS.Data\\Migrations\\20250209201134_rowversionchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\orsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\orsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\contracts\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\contracts\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\orderprocessingsystem\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|solutionrelative:orderprocessingsystem\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\orderprocessingsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|solutionrelative:orderprocessingsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\orderprocessingsystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,24 +35,63 @@
       "RelativeMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|solutionrelative:orderprocessingsystem\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\orderprocessingsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|solutionrelative:orderprocessingsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\orderprocessingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|solutionrelative:orderprocessingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|solutionrelative:ors.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD575819-0EDC-4A2C-9E49-38C08A78909B}|ORS.Tests\\ORS.Tests.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.tests\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD575819-0EDC-4A2C-9E49-38C08A78909B}|ORS.Tests\\ORS.Tests.csproj|solutionrelative:ors.tests\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|solutionrelative:ors.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\contracts\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\contracts\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VIPER PC\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.service\\dtos\\ordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|solutionrelative:ors.service\\dtos\\ordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|solutionrelative:ors.service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.service\\dtos\\customerordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}|ORS.Service\\ORS.Service.csproj|solutionrelative:ors.service\\dtos\\customerordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\contracts\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\contracts\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\orderprocessingsystem\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|solutionrelative:orderprocessingsystem\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\orderprocessingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|solutionrelative:orderprocessingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\orderprocessingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}|OrderProcessingSystem\\ORS.API.csproj|solutionrelative:orderprocessingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|solutionrelative:ors.data\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C10446CE-7A14-446E-9AB6-E7CF90938295}|ORS.Data\\ORS.Data.csproj|d:\\projects\\milanrathod_orderprocessingsystem\\orderprocessingsystem\\ors.data\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,128 +117,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "ORS.Service\\OrderService.cs",
-              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\OrderService.cs",
-              "RelativeToolTip": "ORS.Service\\OrderService.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAiwHEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "20250209201134_rowversionchanges.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Migrations\\20250209201134_rowversionchanges.cs",
+              "RelativeDocumentMoniker": "ORS.Data\\Migrations\\20250209201134_rowversionchanges.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Migrations\\20250209201134_rowversionchanges.cs",
+              "RelativeToolTip": "ORS.Data\\Migrations\\20250209201134_rowversionchanges.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T19:32:23.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\CustomerService.cs",
-              "RelativeDocumentMoniker": "ORS.Service\\CustomerService.cs",
-              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\CustomerService.cs",
-              "RelativeToolTip": "ORS.Service\\CustomerService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwCoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T19:31:56.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomerOrdersDto.cs",
-              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\Dtos\\CustomerOrdersDto.cs",
-              "RelativeDocumentMoniker": "ORS.Service\\Dtos\\CustomerOrdersDto.cs",
-              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\Dtos\\CustomerOrdersDto.cs",
-              "RelativeToolTip": "ORS.Service\\Dtos\\CustomerOrdersDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T19:31:53.749Z",
+              "WhenOpened": "2025-02-09T20:11:34.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Contracts\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "ORS.Data\\Contracts\\ICustomerRepository.cs",
-              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Contracts\\ICustomerRepository.cs",
-              "RelativeToolTip": "ORS.Data\\Contracts\\ICustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T19:26:57.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Contracts\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "ORS.Data\\Contracts\\IOrderRepository.cs",
-              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Contracts\\IOrderRepository.cs",
-              "RelativeToolTip": "ORS.Data\\Contracts\\IOrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T19:26:33.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "ORS.Data\\Repositories\\CustomerRepository.cs",
               "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Repositories\\CustomerRepository.cs",
               "RelativeToolTip": "ORS.Data\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwDEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T19:25:38.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Dockerfile",
-              "RelativeDocumentMoniker": "OrderProcessingSystem\\Dockerfile",
-              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Dockerfile",
-              "RelativeToolTip": "OrderProcessingSystem\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-09T19:19:51.189Z",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "ORS.Data\\Models\\Customer.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Models\\Customer.cs",
+              "RelativeToolTip": "ORS.Data\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T12:24:46.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "OrderProcessingSystem\\Program.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Program.cs",
+              "RelativeToolTip": "OrderProcessingSystem\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwFwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:55:45.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\UserService.cs",
+              "RelativeDocumentMoniker": "ORS.Service\\UserService.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\UserService.cs",
+              "RelativeToolTip": "ORS.Service\\UserService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwFkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T13:42:53.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "OrderProcessingSystem\\Controllers\\CustomerController.cs",
               "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "OrderProcessingSystem\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T19:14:25.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "OrderProcessingSystem\\Controllers\\OrderController.cs",
               "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Controllers\\OrderController.cs",
               "RelativeToolTip": "OrderProcessingSystem\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T19:14:24.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "OrderProcessingSystem\\Controllers\\UsersController.cs",
@@ -236,7 +225,139 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "ORSDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\ORSDbContext.cs",
+              "RelativeDocumentMoniker": "ORS.Data\\ORSDbContext.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\ORSDbContext.cs",
+              "RelativeToolTip": "ORS.Data\\ORSDbContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T09:09:03.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\CustomerService.cs",
+              "RelativeDocumentMoniker": "ORS.Service\\CustomerService.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\CustomerService.cs",
+              "RelativeToolTip": "ORS.Service\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:31:56.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Contracts\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "ORS.Data\\Contracts\\ICustomerRepository.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Contracts\\ICustomerRepository.cs",
+              "RelativeToolTip": "ORS.Data\\Contracts\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:26:57.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "ORS.Service\\OrderService.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\OrderService.cs",
+              "RelativeToolTip": "ORS.Service\\OrderService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowCAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:32:23.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderServiceTests.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Tests\\OrderServiceTests.cs",
+              "RelativeDocumentMoniker": "ORS.Tests\\OrderServiceTests.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Tests\\OrderServiceTests.cs",
+              "RelativeToolTip": "ORS.Tests\\OrderServiceTests.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:40:51.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\VIPER PC\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\VIPER PC\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAwwNgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-09T19:43:51.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrdersDto.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\Dtos\\OrdersDto.cs",
+              "RelativeDocumentMoniker": "ORS.Service\\Dtos\\OrdersDto.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\Dtos\\OrdersDto.cs",
+              "RelativeToolTip": "ORS.Service\\Dtos\\OrdersDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:43:10.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerOrdersDto.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\Dtos\\CustomerOrdersDto.cs",
+              "RelativeDocumentMoniker": "ORS.Service\\Dtos\\CustomerOrdersDto.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\Dtos\\CustomerOrdersDto.cs",
+              "RelativeToolTip": "ORS.Service\\Dtos\\CustomerOrdersDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:31:53.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Contracts\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "ORS.Data\\Contracts\\IOrderRepository.cs",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Contracts\\IOrderRepository.cs",
+              "RelativeToolTip": "ORS.Data\\Contracts\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:26:33.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Dockerfile",
+              "RelativeDocumentMoniker": "OrderProcessingSystem\\Dockerfile",
+              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Dockerfile",
+              "RelativeToolTip": "OrderProcessingSystem\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-09T19:19:51.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "ORS.Data\\Repositories\\OrderRepository.cs",
@@ -249,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\appsettings.json",
               "RelativeDocumentMoniker": "OrderProcessingSystem\\appsettings.json",
@@ -262,20 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Program.cs",
-              "RelativeDocumentMoniker": "OrderProcessingSystem\\Program.cs",
-              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\OrderProcessingSystem\\Program.cs",
-              "RelativeToolTip": "OrderProcessingSystem\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAnwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T14:55:45.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\ProductService.cs",
               "RelativeDocumentMoniker": "ORS.Service\\ProductService.cs",
@@ -288,20 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\UserService.cs",
-              "RelativeDocumentMoniker": "ORS.Service\\UserService.cs",
-              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\UserService.cs",
-              "RelativeToolTip": "ORS.Service\\UserService.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAUwFkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T13:42:53.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "ORS.Data\\Repositories\\ProductRepository.cs",
@@ -314,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ORS.Data\\Models\\Product.cs",
@@ -326,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "ORS.Data\\Models\\OrderItem.cs",
@@ -338,19 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "ORS.Data\\Models\\Customer.cs",
-              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Models\\Customer.cs",
-              "RelativeToolTip": "ORS.Data\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T12:24:46.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\Models\\Order.cs",
               "RelativeDocumentMoniker": "ORS.Data\\Models\\Order.cs",
@@ -363,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\Contracts\\IOrderService.cs",
               "RelativeDocumentMoniker": "ORS.Service\\Contracts\\IOrderService.cs",
@@ -375,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "IProductService.cs",
               "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Service\\Contracts\\IProductService.cs",
               "RelativeDocumentMoniker": "ORS.Service\\Contracts\\IProductService.cs",
@@ -384,19 +467,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T12:21:24.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ORSDbContext.cs",
-              "DocumentMoniker": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\ORSDbContext.cs",
-              "RelativeDocumentMoniker": "ORS.Data\\ORSDbContext.cs",
-              "ToolTip": "D:\\Projects\\MilanRathod_OrderProcessingSystem\\OrderProcessingSystem\\ORS.Data\\ORSDbContext.cs",
-              "RelativeToolTip": "ORS.Data\\ORSDbContext.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:09:03.867Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORS.API", "OrderProcessingSystem\ORS.API.csproj", "{3BDD5CBE-2A68-4C58-9FD5-36892676F1BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORS.Data", "ORS.Data\ORS.Data.csproj", "{C10446CE-7A14-446E-9AB6-E7CF90938295}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORS.Service", "ORS.Service\ORS.Service.csproj", "{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORS.Tests", "ORS.Tests\ORS.Tests.csproj", "{FD575819-0EDC-4A2C-9E49-38C08A78909B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E03D8A8-A19A-4D8A-A5F0-4A02601AC4EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD575819-0EDC-4A2C-9E49-38C08A78909B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD575819-0EDC-4A2C-9E49-38C08A78909B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD575819-0EDC-4A2C-9E49-38C08A78909B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD575819-0EDC-4A2C-9E49-38C08A78909B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

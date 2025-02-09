@@ -14,4 +14,8 @@
 [Bb]in
 [Dd]ebug*/
 *.sbr
-obj/
+*.testlog
+[Mm]igrations
+*/obj/
+[Vv]17*/
+[Oo]bj*/

@@ -1,10 +1,14 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using ORS.Data.Contracts;
 using ORS.Data.Models;
 using ORS.Service.Contracts;
 using Serilog;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 
 public class UserService : IUserService
 {
@@ -16,11 +20,16 @@ public class UserService : IUserService
         _customerRepository = customerRepository;
         _hashSalt = configuration["Hashing:HashSalt"];
     }
-
     public async Task AddUserAsync(string email, string password)
     {
         try
         {
+            if (!IsValidEmail(email))
+            {
+                Log.Warning("Invalid email format: {Email}.", email);
+                throw new Exception("Invalid email format.");
+            }
+
             var existingUsers = await _customerRepository.GetAllAsync();
             var existingUser = existingUsers.FirstOrDefault(c => c.Email == email);
 
@@ -53,6 +62,12 @@ public class UserService : IUserService
     {
         try
         {
+            if (!IsValidEmail(email))
+            {
+                Log.Warning("Invalid email format: {Email}.", email);
+                return false;
+            }
+
             var users = await _customerRepository.GetAllAsync();
             var user = users.FirstOrDefault(c => c.Email == email);
 
@@ -68,6 +83,47 @@ public class UserService : IUserService
         catch (Exception ex)
         {
             Log.Warning(ex, "An error occurred during authentication for email {Email}.", email);
+            throw;
+        }
+    }
+
+    public string GenerateJwtToken(string username, IList<string> roles)
+    {
+        var claims = new List<Claim>
+    {
+        new Claim(JwtRegisteredClaimNames.Sub, username),
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+    };
+
+        // Add roles to the claims  
+        foreach (var role in roles)
+        {
+            claims.Add(new Claim(ClaimTypes.Role, role));
+        }
+
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKeyHere"));
+        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+        var token = new JwtSecurityToken(
+            issuer: "YourIssuerHere",
+            audience: "YourAudienceHere",
+            claims: claims,
+            expires: DateTime.UtcNow.AddHours(1),
+            signingCredentials: creds);
+
+        return new JwtSecurityTokenHandler().WriteToken(token);
+    }
+
+    private bool IsValidEmail(string email)
+    {
+        try
+        {
+            var emailRegex = new Regex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$");
+            return emailRegex.IsMatch(email);
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "An error occurred while validating the email: {Email}.", email);
             throw;
         }
     }
