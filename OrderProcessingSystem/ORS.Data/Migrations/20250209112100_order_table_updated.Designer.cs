@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ORS.Data;
 
@@ -10,9 +11,11 @@ using ORS.Data;
 namespace ORS.Data.Migrations
 {
     [DbContext(typeof(ORSDbContext))]
-    partial class ORSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250209112100_order_table_updated")]
+    partial class order_table_updated
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

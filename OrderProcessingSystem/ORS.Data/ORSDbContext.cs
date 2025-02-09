@@ -35,18 +35,28 @@ namespace ORS.Data
                 entity.Property(p => p.Name).IsRequired().HasMaxLength(100);
                 entity.Property(p => p.Price).IsRequired().HasColumnType("decimal(18,2)");
             });
-
             modelBuilder.Entity<Order>(entity =>
             {
                 entity.HasKey(o => o.Id);
+
                 entity.HasOne(o => o.Customer)
                       .WithMany(c => c.Orders)
                       .HasForeignKey(o => o.CustomerId);
+
+                entity.Property(o => o.IsFulfilled)
+                      .IsRequired()
+                      .HasDefaultValue(false);
+
+                entity.HasIndex(o => new { o.CustomerId, o.IsFulfilled })
+                      .HasFilter("[IsFulfilled] = 0")
+                      .IsUnique();
             });
 
+            // Configure OrderItem  
             modelBuilder.Entity<OrderItem>(entity =>
             {
                 entity.HasKey(oi => new { oi.OrderId, oi.ProductId });
+
                 entity.HasOne(oi => oi.Order)
                       .WithMany(o => o.OrderItems)
                       .HasForeignKey(oi => oi.OrderId);

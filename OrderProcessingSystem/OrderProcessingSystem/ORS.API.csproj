@@ -18,11 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ORS.Data\ORS.Data.csproj" />
+    <ProjectReference Include="..\ORS.Service\ORS.Service.csproj" />
   </ItemGroup>
 
 </Project>
