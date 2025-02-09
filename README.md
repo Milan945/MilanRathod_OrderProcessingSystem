@@ -40,7 +40,7 @@ cd MilanRathod_OrderProcessingSystem
 - Update **appsettings.json** with the appropriate SQL Server connection string:
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=your_server;Database=OrderDB;User Id=your_user;Password=your_password;"
+  "OrsDatabase": "Server=your_server;Database=OrderDB;User Id=your_user;Password=your_password;"
 }
 ```
 - Run database migrations:
